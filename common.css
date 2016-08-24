@@ -1,0 +1,676 @@
+
+/* line 4, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/_basic.scss */
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+/* line 7, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/_basic.scss */
+nav, h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 10, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/_basic.scss */
+.font-Oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+/* line 13, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/_basic.scss */
+.font-Source-Serif-Pro {
+  font-family: "Source Serif Pro", Helvetica, Arial, sans-serif;
+}
+
+/* line 1, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/bootstrap/_buttons.scss */
+.btn {
+  border-radius: 0;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 2, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz12 {
+    font-size: 12px;
+  }
+
+  /* line 3, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz13 {
+    font-size: 13px;
+  }
+
+  /* line 4, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz14 {
+    font-size: 14px;
+  }
+
+  /* line 5, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz15 {
+    font-size: 15px;
+  }
+
+  /* line 6, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz16 {
+    font-size: 16px;
+  }
+
+  /* line 7, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz18 {
+    font-size: 18px;
+  }
+
+  /* line 8, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz20 {
+    font-size: 20px;
+  }
+
+  /* line 9, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz21 {
+    font-size: 21px;
+  }
+
+  /* line 10, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz22 {
+    font-size: 22px;
+  }
+
+  /* line 11, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz24 {
+    font-size: 24px;
+  }
+
+  /* line 12, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz28 {
+    font-size: 28px;
+  }
+
+  /* line 13, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz30 {
+    font-size: 30px;
+  }
+
+  /* line 14, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz32 {
+    font-size: 32px;
+  }
+
+  /* line 15, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz33 {
+    font-size: 33px;
+  }
+
+  /* line 16, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz34 {
+    font-size: 34px;
+  }
+
+  /* line 17, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz36 {
+    font-size: 36px;
+  }
+
+  /* line 18, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz38 {
+    font-size: 38px;
+  }
+
+  /* line 19, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz40 {
+    font-size: 40px;
+  }
+
+  /* line 20, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz42 {
+    font-size: 42px;
+  }
+
+  /* line 21, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz46 {
+    font-size: 46px;
+  }
+
+  /* line 22, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz48 {
+    font-size: 48px;
+  }
+
+  /* line 23, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz52 {
+    font-size: 52px;
+  }
+
+  /* line 24, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz54 {
+    font-size: 54px;
+  }
+
+  /* line 25, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .smFz56 {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 28, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz12 {
+    font-size: 12px;
+  }
+
+  /* line 29, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz13 {
+    font-size: 13px;
+  }
+
+  /* line 30, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz14 {
+    font-size: 14px;
+  }
+
+  /* line 31, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz15 {
+    font-size: 15px;
+  }
+
+  /* line 32, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz16 {
+    font-size: 16px;
+  }
+
+  /* line 33, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz18 {
+    font-size: 18px;
+  }
+
+  /* line 34, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz20 {
+    font-size: 20px;
+  }
+
+  /* line 35, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz21 {
+    font-size: 21px;
+  }
+
+  /* line 36, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz22 {
+    font-size: 22px;
+  }
+
+  /* line 37, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz24 {
+    font-size: 24px;
+  }
+
+  /* line 38, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz28 {
+    font-size: 28px;
+  }
+
+  /* line 39, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz30 {
+    font-size: 30px;
+  }
+
+  /* line 40, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz32 {
+    font-size: 32px;
+  }
+
+  /* line 41, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz34 {
+    font-size: 34px;
+  }
+
+  /* line 42, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz36 {
+    font-size: 36px;
+  }
+
+  /* line 43, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz38 {
+    font-size: 38px;
+  }
+
+  /* line 44, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz40 {
+    font-size: 40px;
+  }
+
+  /* line 45, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz42 {
+    font-size: 42px;
+  }
+
+  /* line 46, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz46 {
+    font-size: 46px;
+  }
+
+  /* line 47, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz48 {
+    font-size: 48px;
+  }
+
+  /* line 48, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz52 {
+    font-size: 52px;
+  }
+
+  /* line 49, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz54 {
+    font-size: 54px;
+  }
+
+  /* line 50, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .mdFz56 {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 53, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz12 {
+    font-size: 12px;
+  }
+
+  /* line 54, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz13 {
+    font-size: 13px;
+  }
+
+  /* line 55, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz14 {
+    font-size: 14px;
+  }
+
+  /* line 56, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz15 {
+    font-size: 15px;
+  }
+
+  /* line 57, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz16 {
+    font-size: 16px;
+  }
+
+  /* line 58, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz18 {
+    font-size: 18px;
+  }
+
+  /* line 59, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz20 {
+    font-size: 20px;
+  }
+
+  /* line 60, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz21 {
+    font-size: 21px;
+  }
+
+  /* line 61, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz22 {
+    font-size: 22px;
+  }
+
+  /* line 62, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz24 {
+    font-size: 24px;
+  }
+
+  /* line 63, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz28 {
+    font-size: 28px;
+  }
+
+  /* line 64, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz30 {
+    font-size: 30px;
+  }
+
+  /* line 65, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz32 {
+    font-size: 32px;
+  }
+
+  /* line 66, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz34 {
+    font-size: 34px;
+  }
+
+  /* line 67, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz36 {
+    font-size: 36px;
+  }
+
+  /* line 68, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz38 {
+    font-size: 38px;
+  }
+
+  /* line 69, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz40 {
+    font-size: 40px;
+  }
+
+  /* line 70, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz42 {
+    font-size: 42px;
+  }
+
+  /* line 71, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz46 {
+    font-size: 46px;
+  }
+
+  /* line 72, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz48 {
+    font-size: 48px;
+  }
+
+  /* line 73, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz52 {
+    font-size: 52px;
+  }
+
+  /* line 74, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz54 {
+    font-size: 54px;
+  }
+
+  /* line 75, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .lgFz56 {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 78, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz12 {
+    font-size: 12px;
+  }
+
+  /* line 79, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz13 {
+    font-size: 13px;
+  }
+
+  /* line 80, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz14 {
+    font-size: 14px;
+  }
+
+  /* line 81, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz15 {
+    font-size: 15px;
+  }
+
+  /* line 82, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz16 {
+    font-size: 16px;
+  }
+
+  /* line 83, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz18 {
+    font-size: 18px;
+  }
+
+  /* line 84, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz20 {
+    font-size: 20px;
+  }
+
+  /* line 85, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz21 {
+    font-size: 21px;
+  }
+
+  /* line 86, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz22 {
+    font-size: 22px;
+  }
+
+  /* line 87, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz24 {
+    font-size: 24px;
+  }
+
+  /* line 88, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz28 {
+    font-size: 28px;
+  }
+
+  /* line 89, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz30 {
+    font-size: 30px;
+  }
+
+  /* line 90, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz32 {
+    font-size: 32px;
+  }
+
+  /* line 91, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz34 {
+    font-size: 34px;
+  }
+
+  /* line 92, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz36 {
+    font-size: 36px;
+  }
+
+  /* line 93, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz38 {
+    font-size: 38px;
+  }
+
+  /* line 94, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz40 {
+    font-size: 40px;
+  }
+
+  /* line 95, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz42 {
+    font-size: 42px;
+  }
+
+  /* line 96, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz46 {
+    font-size: 46px;
+  }
+
+  /* line 97, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz48 {
+    font-size: 48px;
+  }
+
+  /* line 98, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz52 {
+    font-size: 52px;
+  }
+
+  /* line 99, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz54 {
+    font-size: 54px;
+  }
+
+  /* line 100, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+  .xsFz56 {
+    font-size: 56px;
+  }
+}
+/* line 103, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+.mt0 {
+  margin-top: 0;
+}
+
+/* line 104, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+.mt10 {
+  margin-top: 10px;
+}
+
+/* line 105, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+.mt20 {
+  margin-top: 20px;
+}
+
+/* 垂直對齊專用 */
+/* line 108, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+.vam:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  margin-right: -.7em;
+  vertical-align: middle;
+}
+
+/* line 116, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/extend/font-size.scss */
+.vam > div,
+.vam > p,
+.vam > span,
+.vam > .vamContent {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/* line 2, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/footer.scss */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding-top: 40px;
+}
+/* line 7, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/footer.scss */
+footer .container {
+  padding-bottom: 40px;
+}
+/* line 11, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/footer.scss */
+footer h3 {
+  color: #9d9d9d;
+  font-size: 18px;
+}
+/* line 16, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/footer.scss */
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 21, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/footer.scss */
+footer a:hover {
+  color: #2BC8FF;
+  text-decoration: none;
+}
+/* line 26, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/footer.scss */
+footer .footerOurAdvantage .btn {
+  background-color: #2BC8FF;
+}
+/* line 30, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/footer.scss */
+footer .copyRight {
+  background-color: #000;
+  color: #9d9d9d;
+  font-size: 12px;
+  line-height: 46px;
+  height: 46px;
+}
+/* line 37, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/footer.scss */
+footer .copyRight p {
+  margin: 0;
+}
+/* line 44, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/footer.scss */
+footer .footerAbout li {
+  line-height: 2;
+}
+/* line 48, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/footer.scss */
+footer .footerAbout ul {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  -ms-columns: 2;
+  -o-columns: 2;
+  columns: 2;
+}
+
+/* line 2, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/navbar.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  font-weight: 100;
+}
+
+/* line 6, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/navbar.scss */
+.navbarUser {
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 10, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/navbar.scss */
+  .navbarUser.pull-right {
+    float: left !important;
+    padding-right: 0px;
+  }
+}
+/* line 15, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/navbar.scss */
+.navbarUser a {
+  color: #fff;
+  font-weight: 100;
+  line-height: 50px;
+}
+
+/* line 20, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/navbar.scss */
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbarUser a:hover {
+  color: #2BC8FF;
+}
+
+/* line 26, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/navbar.scss */
+.mainNav {
+  margin-bottom: 0;
+  z-index: 10;
+  background-image: none;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* line 32, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/navbar.scss */
+.navbarList {
+  padding-right: 10px;
+}
+
+/* line 36, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/navbar.scss */
+.navbar-brand {
+  padding: 0px;
+}
+
+/* line 39, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/layout/navbar.scss */
+.navbar-brand img {
+  max-height: 100%;
+}
+
+/* line 1, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/partials/scrollToTop.scss */
+.scrollToTop {
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  color: #444;
+  background-color: #ccc;
+  text-decoration: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  z-index: 100;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -ms-transition: .5s all;
+  -o-transition: .5s all;
+  transition: .5s all;
+}
+@media screen and (max-width: 767px) {
+  /* line 1, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/partials/scrollToTop.scss */
+  .scrollToTop {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    right: 20px;
+    bottom: 20px;
+  }
+}
+/* line 29, /Users/peterchen/projects/mit.Jobs/app/assets/stylesheets/common/partials/scrollToTop.scss */
+.scrollToTop:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #DB5939;
+}
