@@ -488,7 +488,6 @@ div.line {
 .page-block {
   padding: 60px 0 100px 0;
 }
-
 .page-block h2{
   margin: 20px 0;
 }
@@ -780,4 +779,11 @@ div.line {
 /* Styling */
 .minor-action {
   color: #6b6a6a;
+}
+
+.light-grey-background {
+  background-color: #fafafa;
+}
+.white-background {
+  background-color: #ffffff;
 }
