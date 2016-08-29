@@ -470,7 +470,7 @@ div.line {
 }
 .hero .content {
   padding: 2.5% 2.5%;
-  background-color: rgba(255, 255, 255, 0.88);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .hero .content h1{
   margin: 20px 0;
@@ -769,3 +769,15 @@ div.line {
   max-width: 100%;
 }
 
+/* Bootstrap Style override */
+.btn {
+  border: none;
+  border-radius: 22px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+/* Styling */
+.minor-action {
+  color: #6b6a6a;
+}
