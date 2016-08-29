@@ -769,3 +769,10 @@ div.line {
   max-width: 100%;
 }
 
+/* Bootstrap Style override */
+.btn {
+  border: none;
+  border-radius: 22px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
