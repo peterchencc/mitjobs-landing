@@ -605,15 +605,16 @@ div.line {
 }
 .testimonials blockquote{
   margin: 20px 0;
-  border-left: 5px solid #313447;
+  border: none;
 }
 .testimonials blockquote p {
   font-weight: 500;
   font-size: 22px;
-  margin-bottom: 13px;
+  margin-bottom: 12px;
   color: #333333;
+  padding-right: 64px;
 }
-.testimonials blockquote footer{
+.testimonials blockquote footer {
   background-color: transparent;
   color: #333333;
   font-size: 18px;
@@ -865,4 +866,28 @@ div.line {
   margin-bottom: 10vh;
   margin-top: 10vh;
 }
-
+/*.quote::before {
+  content: "\f10d";
+  font-family: fontawesome;
+  padding: 12px;
+  font-size: 60px;
+  color: #68C9C4;
+}
+.quote::after {
+  content: "\f10d";
+  font-family: fontawesome;
+  padding: 12px;
+  font-size: 60px;
+  color: #68C9C4;
+}*/
+.testimonials blockquote > i {
+  font-size: 48px;
+  color: #aaaaaa;
+}
+.testimonials .client > p {
+  margin-top: 16px;
+  color: #333333;
+}
+.testimonials blockquote footer a {
+  color: #333333;
+}
