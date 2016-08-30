@@ -787,3 +787,74 @@ div.line {
 .white-background {
   background-color: #ffffff;
 }
+.service-plan {
+  
+}
+.plan-item {
+  background-color: white;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.plan-header {
+  padding: 20px;
+}
+.plan-title {
+  margin-bottom: 32px;
+}
+.plan-title h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+}
+/*.plan-price {
+  margin-top: 16px;
+}*/
+.plan-price h4 {
+  font-size: 24px;
+}
+.positive-plan-item .plan-header  {
+  background-color: #30A8D3;
+}
+.neutral-plan-item .plan-header  {
+  background-color: #cccccc;
+}
+.plan-detail {
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #222222;
+  color: #ffffff;
+}
+.plan-detail > a {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.service-items {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-bottom: 8px;
+}
+.service-items li {
+  min-height: 36px;
+  font-size: 18px;
+  padding: 5px;
+}
+.service-items li > a{
+  color: #ffffff;
+}
+.not-included-item {
+  font-weight: 200;
+  color: #cccccc;
+}
+.premium-better {
+  padding-left: 48px;
+  padding-right: 48px;
+  line-height: 24px;
+}
