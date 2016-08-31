@@ -777,6 +777,8 @@ div.line {
   border-radius: 22px;
   margin-left: 2px;
   margin-right: 2px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 /* Styling */
@@ -890,4 +892,7 @@ div.line {
 }
 .testimonials blockquote footer a {
   color: #333333;
+}
+footer .footerAbout ul {
+  columns: 1;
 }
