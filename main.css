@@ -796,50 +796,79 @@ div.line {
   
 }
 .plan-item {
-  background-color: white;
+  
   background: #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
-  padding: 20px;
+  /*box-shadow: 0 0 5px rgba(0, 0, 0, .5);*/
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 36px;
+  padding-left: 36px;
   margin: 20px;
   text-align: center;
+  border-radius: 4px;
+}
+.basic-plan-item {
+  background-color: white;
+  border: 1px solid #D6D6E4;
+  color: #363E51;
+}
+.boost-plan-item {
+  background-color: #1EBA93;
+  color: #ffffff;
+}
+.basic-plan-item .plan-item-divider {
+  border-top: 1px solid #363E51;
+  margin-right: 48px;
+  margin-left: 48px;
+  opacity: 0.3;
+}
+.boost-plan-item .plan-item-divider {
+  border-top: 2px solid #ffffff;
+  margin-right: 48px;
+  margin-left: 48px;
+  opacity: 0.3;
 }
 .plan-header {
   padding: 20px;
 }
 .plan-title {
-  margin-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .plan-title h3 {
   font-size: 32px;
   font-weight: bold;
   margin: 0px;
 }
-/*.plan-price {
-  margin-top: 16px;
-}*/
+.plan-price {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .plan-price h4 {
   font-size: 24px;
-}
-.positive-plan-item .plan-header  {
-  background-color: #30A8D3;
-}
-.neutral-plan-item .plan-header  {
-  background-color: #cccccc;
+
 }
 .plan-detail {
-  margin-left: -20px;
+/*  margin-left: -20px;
   margin-right: -20px;
-  margin-bottom: -20px;
+  margin-bottom: -20px;*/
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-left: 0px;
-  padding-right: 0px;
-  background-color: #222222;
-  color: #ffffff;
+  padding-left: 48px;
+  padding-right: 48px;
 }
+
 .plan-detail > a {
   margin-top: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 8px;   
+}
+.basic-plan-item .plan-detail > a {
+  color: #ffffff;
+  background-color: #365FC2;
+}
+.boost-plan-item .plan-detail > a {
+  color: #00ab80;
+  background-color: #ffffff;
 }
 .service-items {
   list-style-type: none;
@@ -850,14 +879,17 @@ div.line {
   min-height: 36px;
   font-size: 18px;
   padding: 5px;
+  padding-bottom: 8px;
 }
-.service-items li > a{
+.basic-plan-item .service-items li > a {
+  color: #363E51;
+}
+.boost-plan-item .service-items li > a {
   color: #ffffff;
 }
-.not-included-item {
-  font-weight: 200;
-  color: #cccccc;
-}
+.service-items .see-detail a {
+  text-decoration: underline;
+} 
 .premium-better {
   padding-left: 48px;
   padding-right: 48px;
