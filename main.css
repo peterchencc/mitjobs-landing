@@ -951,3 +951,63 @@ footer .footerAbout ul {
   padding: 16px;
   color: #212A3F;
 }
+
+/* Pricing Page */
+.pricing-hero {
+  background-image: url(img/test-rec.svg);
+  background-position: center center;
+  background-size: cover;
+  padding: 4% 0 4% 0;
+  color: #ffffff;
+}
+.pricing-hero .content {
+  padding: 2.5% 2.5%;
+}
+.pricing-hero .content h1{
+  margin: 20px 0;
+  color: #ffffff;
+}
+.pricing-hero .content p{
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.pricing-hero .content a{
+  margin-bottom: 15px;
+}
+.pricing-hero .minor-action {
+  color: #eeeeee;
+}
+
+.pricing-feature {
+  padding: 90px 0;
+  border-bottom: 1px solid #eee;
+
+}
+.pricing-features .pricing-feature .title {
+  color: #1EBA93;
+}
+@media (min-width: 768px) {
+  .pricing-features .pricing-feature .title {
+    margin-bottom: 30px;
+    text-align: center; 
+  }
+}
+@media (min-width: 992px) {
+  .pricing-features .pricing-feature .title {
+    margin-bottom: 15px;
+    text-align: left; 
+  }
+  
+}
+
+
+.pricing-features .pricing-feature .figure-caption {
+  color: #b3b3b3;
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+}
+.last-pricing-feature {
+  border-bottom: none;
+}
