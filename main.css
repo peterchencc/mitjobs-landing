@@ -900,20 +900,7 @@ div.line {
   margin-bottom: 10vh;
   margin-top: 10vh;
 }
-/*.quote::before {
-  content: "\f10d";
-  font-family: fontawesome;
-  padding: 12px;
-  font-size: 60px;
-  color: #68C9C4;
-}
-.quote::after {
-  content: "\f10d";
-  font-family: fontawesome;
-  padding: 12px;
-  font-size: 60px;
-  color: #68C9C4;
-}*/
+
 .testimonials blockquote > i {
   font-size: 48px;
   color: #aaaaaa;
@@ -967,13 +954,17 @@ footer .footerAbout ul {
   margin: 20px 0;
   color: #ffffff;
 }
-.pricing-hero .content p{
+.pricing-hero .content p {
   font-size: 18px;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-.pricing-hero .content a{
+.pricing-hero .content a {
   margin-bottom: 15px;
+}
+.pricing-hero .btn {
+/*  background-color: #ffffff;
+  color: #365FC2;*/
 }
 .pricing-hero .minor-action {
   color: #eeeeee;
