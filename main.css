@@ -987,6 +987,10 @@ footer .footerAbout ul {
 .pricing-features .pricing-feature .title {
   color: #1EBA93;
 }
+.pricing-features .pricing-feature .desc {
+  font-size: 18px;
+  line-height: 24px;
+}
 @media (min-width: 768px) {
   .pricing-features .pricing-feature .title {
     margin-bottom: 30px;
@@ -1000,7 +1004,6 @@ footer .footerAbout ul {
   }
   
 }
-
 
 .pricing-features .pricing-feature .figure-caption {
   color: #b3b3b3;
