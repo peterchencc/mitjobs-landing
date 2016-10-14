@@ -927,12 +927,18 @@ footer .footerAbout ul {
 .tractions .traction-number {
   padding: 16px;
 }
-.tractions .traction-number > h3 {
-  color: #212A3F;
+.tractions .traction-number img {
+  display: block;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.tractions .traction-number .traction-number-unit {
+  color: #6b6a6a;
   margin-bottom: 4px;
 }
-.tractions .traction-number > h4 {
+.tractions .traction-number > .traction-number-meaning {
   color: #212A3F;
+
 }
 .tractions .traction-description {
   padding: 16px;
