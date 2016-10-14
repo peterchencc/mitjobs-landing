@@ -642,7 +642,10 @@ div.line {
 .features .features-item{
   padding-top: 20px;
 }
-
+.features .features-item img {
+  display: block;
+  margin: auto;
+}
 
 .how-it-works{
   background-color: HSL(0, 0%, 91%);
